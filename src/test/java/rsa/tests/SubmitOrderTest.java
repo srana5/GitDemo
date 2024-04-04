@@ -34,6 +34,7 @@ public class SubmitOrderTest extends BaseTest {
 		Assert.assertEquals(orderCnf, "THANKYOU FOR THE ORDER.");
 		Assert.assertTrue(orderCnf.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		cnfPage.logoutUser();
+		System.out.println("User is logged out");
 
 	}
 
